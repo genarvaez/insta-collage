@@ -1,0 +1,7 @@
+@media(min-width: 720px){
+	.img-box img{
+	height: 90vh;
+	width: 100%
+	
+	}
+}
