@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+}
+.square{
+	height: 50vh;
+	border: 5px solid #E6E6E6;
+}
+.square p{
+	margin-top: 70px;
+	color: #E6E6E6;
+}
+.separator{
+	background-color: black;
+	color: blue;
+}
+.separator p{
+	font-size: 1.5em;
+	margin: 10px;
+}

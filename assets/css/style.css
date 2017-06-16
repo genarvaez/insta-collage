@@ -60,3 +60,7 @@
 	color: white;
 	font-weight: bolder;
 }
+.invalido{
+	display :none;
+	color: red;
+}
