@@ -3,4 +3,7 @@
 	height: 50vh;
 	width: 100%
 	}
+	.form input, #button{
+		margin-left: 60px;
+	}
 }

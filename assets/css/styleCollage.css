@@ -7,7 +7,7 @@
 .square{
 	height: 40vh;
 	border: 5px solid #E6E6E6;
-	overflow: hidden;
+	overflow: auto;
 }
 .separator{
 	background-color: black;

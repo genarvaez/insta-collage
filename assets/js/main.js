@@ -7,9 +7,11 @@ var invalido = Array.from(document.getElementsByClassName("invalido"));
 
 button.addEventListener("click", function(event){
 	if(usuario.value == "" || password.value == "" || usuario.value.length < 6 || password.value.length < 6){
-		alert("no")	
-	}	
+		alert("Datos inválidos")
+		event.preventDefault()
+	}
 	else{
-		button.setAttribute("href", "index2.html")
+		document.getElementById("usuario").value = "";
+		document.getElementById("password").value = ""
 	}
 })

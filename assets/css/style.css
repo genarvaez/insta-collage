@@ -25,14 +25,15 @@
 	font-weight: bolder;
 	padding: 30px;
 }
-.form input, .form button{
+.form input, #button{
 	width: 90%;
 	padding: 10px 20px;
-	margin-left: 10px;
+	margin-left: 30px;
 	margin-top: 10px;
 	background-color: rgba(255, 255, 255, 0.2);
 	border: none;
 	border-radius: 5px;
+	display: block
 }
 *::-webkit-input-placeholder {
     color: white;
