@@ -5,12 +5,9 @@
 	box-sizing: border-box;
 }
 .square{
-	height: 50vh;
+	height: 40vh;
 	border: 5px solid #E6E6E6;
-}
-.square p{
-	margin-top: 70px;
-	color: #E6E6E6;
+	overflow: hidden;
 }
 .separator{
 	background-color: black;
@@ -24,7 +21,6 @@
 	padding: 0;
 	border: 1px solid black;
 }
-.img-box img{
-	height: 117px;
-	
+img{
+	width: 100%;
 }

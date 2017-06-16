@@ -12,21 +12,20 @@
 	<link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>
-	<section class="nav container">
+	<section class="nav container"  ondrop="drop(event)" ondragover="permitirDrop(event)">
 		<div class="row text-center">
-			<div class="col-xs-6 col-sm-6 square" ondragover="permitirDrop(event)" ondrop="drop(event)">
-				<p>Drag your photo</p>	
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 square" ondrop="drop(event)" ondragover="permitirDrop(event)" >
 			</div>
-			<div class="col-xs-6 col-sm-6 square" ondragover="permitirDrop(event)" ondrop="drop(event)">
-				<p>Drag your photo</p>	
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 square" ondrop="drop(event)" ondragover="permitirDrop(event)" >
 			</div>
 		</div>
 		<div class="row text-center">
-			<div class="col-xs-12 col-sm-12 square" ondragover="permitirDrop(event)" ondrop="drop(event)">
-				<p>Drag your photo</p>	
+			<div class="col-xs-6 col-sm-6 col-md- col-lg-6 square" ondrop="drop(event)" ondragover="permitirDrop(event)" >
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 square" ondrop="drop(event)" ondragover="permitirDrop(event)" >
 			</div>
 		</div>
-	</section>
+	
 	<section class="separator container">
 		<div class="row text-center">
 			<div class="col-xs-12 col-sm-12 separator">
@@ -37,26 +36,27 @@
 	<section class="galery container">
 		<div class="row">
 			<div class="col-xs-4 col-sm-4 img-box">
-				<img src="assets/img/playa2.jpg" class="img-responsive" draggable="true" ondragstart="drag(event)" alt="playa">
+				<img src="assets/img/playa2.jpg" class="img-responsive" id="foto1" draggable="true" ondragstart="drag(event)" alt="playa">
 			</div>
 			<div class="col-xs-4 col-sm-4 img-box">
-				<img src="assets/img/fiesta.jpg" class="img-responsive" draggable="true" ondragstart="drag(event)" alt="fiesta">
+				<img src="assets/img/fiesta.jpg" class="img-responsive" id="foto2" draggable="true" ondragstart="drag(event)" alt="fiesta">
 			</div>
 			<div class="col-xs-4 col-sm-4 img-box">
-				<img src="assets/img/flor.jpg" class="img-responsive" draggable="true" ondragstart="drag(event)" alt="flor">
+				<img src="assets/img/flor.jpg" class="img-responsive" id="foto3" draggable="true" ondragstart="drag(event)" alt="flor">
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-4 col-sm-4 img-box">
-				<img src="assets/img/roques.jpg" class="img-responsive" draggable="true" ondragstart="drag(event)" alt="playa">
+				<img src="assets/img/roques.jpg" class="img-responsive" id="foto4" draggable="true" ondragstart="drag(event)" alt="playa">
 			</div>
 			<div class="col-xs-4 col-sm-4 img-box">
-				<img src="assets/img/paris.1.jpg" class="img-responsive" draggable="true" ondragstart="drag(event)" alt="fiesta">
+				<img src="assets/img/paris.1.jpg" class="img-responsive" id="foto5" draggable="true" ondragstart="drag(event)" alt="fiesta">
 			</div>
 			<div class="col-xs-4 col-sm-4 img-box">
-				<img src="assets/img/compartir.jpg" class="img-responsive" draggable="true" ondragstart="drag(event)" alt="flor">
+				<img src="assets/img/compartir.jpg" class="img-responsive" id="foto6" draggable="true" ondragstart="drag(event)" alt="flor">
 			</div>
 		</div>
+	</section>
 	</section>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

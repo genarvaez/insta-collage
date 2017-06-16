@@ -1,16 +1,14 @@
 
-function drag(event){
-  console.log(event.target.id);
-  event.dataTransfer.setData("text", event.target.id);
+function drag(ev){
+  console.log(ev.target.id);
+  ev.dataTransfer.setData("text", ev.target.id);
 }
-function permitirDrop(event){
-  event.preventDefault();
-  var id_foto = event.dataTransfer.getData("text");
-  event.target.appendChild(document.getElementById("id_foto"));
+function permitirDrop(ev){
+  ev.preventDefault(); 
 }
-function drop(event){
-	event.preventDefault();
-	var id_foto = event.dataTransfer.getData("text");
-	event.target.appendChild(document.getElementById("id_foto"));
+function drop(ev){
+	ev.preventDefault();
+	var dato = ev.dataTransfer.getData("text");
+	ev.target.appendChild(document.getElementById(dato));
 }
 //NO FUNCIONÓ EL DROP, SIGUIENDO LAS MISMAS INSTRUCCIONES DEL EJERCICIO GUIADO

@@ -7,9 +7,9 @@ var invalido = Array.from(document.getElementsByClassName("invalido"));
 
 button.addEventListener("click", function(event){
 	if(usuario.value == "" || password.value == "" || usuario.value.length < 6 || password.value.length < 6){
-		event.preventDefault()
-		invalido.forEach(function(e){
-			e.style.display = "block";
-		})
+		alert("no")	
 	}	
+	else{
+		button.setAttribute("href", "index2.html")
+	}
 })
