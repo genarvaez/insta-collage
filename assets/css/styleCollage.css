@@ -20,3 +20,10 @@
 	font-size: 1.5em;
 	margin: 10px;
 }
+.img-box {
+	padding: 0;
+	border: 1px solid black;
+}
+.img-box img{
+	height: 117px;
+}
